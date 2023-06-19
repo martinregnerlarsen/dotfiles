@@ -7,3 +7,7 @@ vim.g.maplocalleader = " "
 local opt = vim.opt
 opt.tabstop = 4
 opt.shiftwidth = 4
+
+if vim.g.neovide then
+  opt.guifont = "FiraCode NF:h12"
+end
