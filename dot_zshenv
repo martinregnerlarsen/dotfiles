@@ -1,4 +1,4 @@
 . "$HOME/.cargo/env"
 
 typeset -U path
-path=($path /usr/local/go/bin)
+path=($path /usr/local/go/bin ~/.emacs.d/bin)

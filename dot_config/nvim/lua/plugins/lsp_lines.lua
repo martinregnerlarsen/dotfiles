@@ -10,5 +10,14 @@ return {
         virtual_text = false,
       })
     end,
+    keys = {
+      {
+        "<leader>ct",
+        function()
+          require("lsp_lines").toggle()
+        end,
+        desc = "Toggle LSP diagnostics",
+      },
+    },
   },
 }
